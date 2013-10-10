@@ -1,0 +1,203 @@
+/* 
+Srinivas Tamada
+www.9lessons.info 
+Facebook Wall Script
+*/
+
+*
+{
+margin:0px;
+padding:0px;
+}
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+font-family:12px;
+}
+h3,h4
+{
+padding:0px;
+margin:0px;
+}
+a
+{
+color:#006699;
+text-decoration:none;
+}
+#wall_container
+{
+text-align:left;
+background-color:#FFFFFF;
+padding:10px;
+width:550px; /* 550 */
+}
+#update
+{
+width:550px;font-size:12px; /* 550 */
+}
+#content
+{
+margin-top:10px;
+}
+textarea
+{
+border:solid 1px #333;
+}
+
+/* status body */
+
+.stbody
+{
+
+margin-bottom:10px;
+border-bottom:dashed 1px #dedede;
+overflow:auto;
+}
+.stimg
+{
+float:left;
+height:50px;
+width:50px;
+border:solid 1px #dedede;
+padding:2px;
+}
+.sttext
+{
+margin-left:64px;
+min-height:50px;
+word-wrap:break-word;
+overflow:hidden;
+padding:5px;
+display:block;
+font-size:12px;
+width:470px; /* 470 */
+}
+.sttext b
+{
+color:#006699;
+}
+
+.sttime
+{
+font-size:11px;
+color:#999;
+font-family:Arial, Helvetica, sans-serif;
+margin-top:5px;
+}
+.stdelete 
+{
+font-weight:bold;
+float:right;
+cursor:pointer;
+}
+#stexpandbox
+{
+margin-top:10px;
+}
+#stexpandbox img
+{
+border:solid 1px #dedede;
+padding:3px;
+}
+/* Comment */
+/* Comment */
+.stcommentbody  /* comments that are loaded up */
+{
+border-bottom:solid 1px #fff;
+background-color:#f2f2f2;
+padding:5px;
+width:440px; /* Previously 400px */
+overflow:auto;
+}
+.stcommentimg
+{
+float:left;
+height:36px;
+width:36px;
+border:solid 1px #dedede;
+padding:2px;
+vertical-align: left;
+display:block; 
+}
+
+
+
+.stcommenttext
+{
+margin-left:40px;
+min-height:40px;
+word-wrap:break-word;
+overflow:hidden;
+padding:3px;
+display:block; 
+font-size:11px;
+width:390px; /* 330 */ /* <-- previously 390px*/
+
+}
+.stcommenttext b
+{
+color:#006699;
+}
+
+.stcommenttime
+{
+font-size:11px;
+color:#999;
+font-family:Arial, Helvetica, sans-serif;
+margin-top:2px;
+}
+.stcommentdelete 
+{
+font-weight:bold;
+float:right;
+cursor:pointer;
+}
+.commentupdate
+{ /* the area for the input box */
+background-color:#f2f2f2;
+width:440px;  /* Previously 400 */
+padding:5px;
+}
+.comment
+{ /* the input box with lower right hand corner mini lines */
+width:390px;   /* Previously 330, 420, 390 */
+height:35px;
+font-size:11px;
+}
+/* faceb image*/
+.small_face
+{
+width:35px;height:35px
+}
+.big_face
+{
+width:50px;height:50px
+}
+#flashmessage
+{
+height:15px;
+margin-top:10px;
+font-size:11px;
+color:#333;
+
+}
+
+.td img {
+  vertical-align: bottom;
+}
+
+input[type="submit"], 
+input[type="button"] {
+background-color: #526DA4; /* #4D1700; */
+border-bottom:1px solid black;
+border-left:1px solid white;
+border-right:1px solid black;
+border-top:1px solid white;
+color:#FBFBF5;
+padding-bottom:2px;
+padding-top:2px;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 13px; /* 11px */
+/* font-size:0.9em; */
+width:auto;
+}
