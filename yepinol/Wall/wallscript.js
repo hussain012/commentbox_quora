@@ -18,6 +18,16 @@
  * Date: January 1, 2012
  *------------------------------------------------------------------------------------------------*/
 
+		$(function(){
+	alert("hi");
+	 $('.commentMark').keypress(function (e) {
+	 	    if (e.keyCode == 13) {
+	        alert('You pressed enter!');
+	    }
+	    alert("hidden");
+	 });
+	});
+
 	$(document).ready(function(){	
 	
 		$('#watermark').bind('keyup', function() { 
@@ -285,7 +295,7 @@
 		$('textarea').elastic();
 
 		jQuery(function($){
-		   //$("#watermark").Watermark("No que você está pensando agora?");
+		   //$("#watermark").Watermark("No que vocï¿½ estï¿½ pensando agora?");
 		  // $(".commentMark").Watermark("Write a comment");
 		});
 
